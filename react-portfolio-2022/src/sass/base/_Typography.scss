@@ -1,0 +1,53 @@
+@use "../abstracts/_abstracts" as *;
+// FONT SECTION
+$font-primary: 'TT Commons Regular',
+    Helvetica,
+    Arial,
+    Lucida,
+    sans-serif;
+
+//Font sizing
+$xl: clamp(56px, 6vw + 1rem, 106px) !important;
+$large: clamp(42px, 5vw + 1rem, 72px) !important;
+$medium: clamp(24px, 2vw + 1rem, 36px) !important;
+$regular: clamp(20px, 1vw + 1rem, 28px) !important;
+$light: clamp(18px, .5vw + 1rem, 24px) !important;
+
+//Font Weight
+$bold: 600;
+$normal: 500;
+
+body {
+    color: $text-color-primary;
+    font-family: $font-primary;
+    -webkit-text-size-adjust: 100%;
+}
+
+h1 {
+    font-size: $large;
+    line-height: 1.2;
+    font-weight: $bold;
+}
+
+h2 {
+    font-size: $medium;
+    font-weight: $normal;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: $regular;
+    font-weight: $bold;
+    line-height: 1.2;
+}
+
+h4 {
+    font-size: $xl;
+    line-height: 1.2;
+    font-weight: 900;
+}
+
+p {
+    font-size: $light;
+    line-height: 1;
+}

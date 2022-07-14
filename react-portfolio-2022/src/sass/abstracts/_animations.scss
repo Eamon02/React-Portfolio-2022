@@ -1,0 +1,16 @@
+// Animation SECTION
+@keyframes UpAndDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-6px);
+    }
+}
+
+.animated--upanddown {
+    animation: 5s ease-in-out .6s infinite UpAndDown;
+}

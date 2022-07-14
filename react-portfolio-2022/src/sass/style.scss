@@ -1,0 +1,20 @@
+// Import @use "file" as name; for naming .variable
+// OR
+// @use "file" as *; to remove name entirely
+
+// USE is only accessable within current file
+
+// Abstract FILES
+@use 'abstracts/_abstracts';
+
+//Base FILES
+@use 'base/_base';
+
+//Component FILES
+@use 'components/_components';
+
+// Layout FILES
+@use 'layouts/_layouts';
+
+// Pages FILES
+@use 'pages/_pages';

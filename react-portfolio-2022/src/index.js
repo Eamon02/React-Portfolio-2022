@@ -1,4 +1,4 @@
-// Render dependencies
+// Import React and ReactDOM libraries
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 

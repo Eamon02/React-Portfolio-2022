@@ -1,0 +1,19 @@
+.skills--carousel {
+	&--inner {
+		display: flex;
+	}
+
+	&--item {
+		background-color: red;
+		-webkit-mask-image: url(../../assets/blob--background.svg);
+		mask-image: url(../../assets/blob--background.svg);
+		min-height: 5rem;
+		width: 5rem;
+		padding: 40px;
+
+		svg {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}

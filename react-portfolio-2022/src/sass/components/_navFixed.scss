@@ -1,0 +1,18 @@
+@use '../base/colors' as *;
+
+.nav--fixed {
+	position: absolute;
+	top: 2rem;
+	right: 0;
+	display: flex;
+	align-items: center;
+	gap: 2vw;
+
+	a {
+		color: $color--white--1;
+
+		&:hover {
+			color: $color--white--2;
+		}
+	}
+}

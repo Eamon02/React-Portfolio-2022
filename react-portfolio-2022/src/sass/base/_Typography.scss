@@ -10,6 +10,7 @@
 
 // FONT SECTION
 $font-primary: 'Carena';
+$font-secondary: 'Montserrat';
 
 //Font sizing
 $xl: clamp(56px, 6vw + 1rem, 106px) !important;
@@ -19,17 +20,18 @@ $regular: clamp(20px, 1vw + 1rem, 28px) !important;
 $light: clamp(18px, 0.5vw + 1rem, 24px) !important;
 
 //Font Weight
-$bold: 600;
+$bold: 400;
 $normal: 500;
 
 body {
 	color: $text--color--black;
-	font-family: $font-primary;
+	font-family: $font-secondary;
 	-webkit-text-size-adjust: 100%;
 	margin: 0;
 }
 
 h1 {
+	font-family: $font-primary;
 	font-size: $large;
 	font-weight: $bold;
 	line-height: 1.2;

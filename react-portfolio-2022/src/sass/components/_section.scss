@@ -1,16 +1,17 @@
 @use '../base/colors' as *;
 
-section{
-    margin-top: 8rem;
-    height: 100vh;
+section {
+	padding-top: 8rem;
+	height: 100vh;
 
-    > h2{
-        text-align: center;
-        color: $text--color--purple;
-    }
-    
-    > h5{
-        text-align: center;
-        color: $text--color--grey;
-    }
+	> h2,
+	> h1 {
+		text-align: center;
+		color: $text--color--purple;
+	}
+
+	> h5 {
+		text-align: center;
+		color: $text--color--grey;
+	}
 }

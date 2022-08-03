@@ -1,27 +1,21 @@
 // rafce functional component
 import React from 'react';
 import Header from './components/header/Header';
-import StickyNav from './components/nav/StickyNav';
 import About from './components/about/About';
-import Skills from './components/skills/Skills';
-import Services from './components/services/Services';
-import Portfolio from './components/portfolio/Portfolio';
-import Testimonials from './components/testimonials/Testimonials';
+import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer'
-
+import Nav from './components/nav/Nav';
+import {Routes, Route } from 'react-router-dom';
 const App = () => {
 	return (
 		<>
-			<Header />
-			<StickyNav />
-			<About />
-			<Skills/>
-			<Services />
-			<Portfolio />
-			<Testimonials />
-			<Contact />
-			<Footer />
+			<Nav />
+			<Routes>
+				<Route path='/' element={<Header />} />
+				<Route path='/about' element={<About />} />
+				<Route path='/projects' element={<Projects />} />
+				<Route path='/contact' element={<Contact />} />
+			</Routes>
 		</>
 	);
 };

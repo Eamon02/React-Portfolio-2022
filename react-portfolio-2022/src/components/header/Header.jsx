@@ -1,16 +1,14 @@
 import React from 'react';
-import Nav from '../nav/Nav';
 import HeaderSocials from './HeaderSocials';
-import Blobs from './Blobs';
+// import Blobs from './Blobs';
 import Name from './Name';
 import { IoIosArrowForward } from 'react-icons/io';
 
 const Header = () => {
 	return (
 		<header id='header' className='header'>
-			<Blobs />
+			{/* <Blobs /> */}
 			<div className='container header--container'>
-				<Nav />
 				<div className='header--title'>
 					<h5>Hello I am</h5>
 					<h1>

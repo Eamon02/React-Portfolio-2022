@@ -14,10 +14,10 @@
 	}
 
 	&--blob--bottom--right {
-		width: 100vw;
+		width: 80vw;
 		position: absolute;
-		bottom: 0;
-		right: 0;
+		bottom: 10%;
+		right: 0px;
 		transform: translate(50%, 50%);
 	}
 	&--blob--top--right {
@@ -137,18 +137,19 @@
 	}
 }
 
-// @media screen and (max-width: 1024px) {
-// 	.header {
-// 		height: 68vh;
-// 	}
-// }
+@media screen and (max-width: 900px) {
+	.header {
+		height: 100vh;
+		&--socials,
+		.scroll--down {
+			display: none;
+		}
+	}
+}
 
-// @media screen and (max-width: 600px) {
-// 	.header {
-// 		height: 100vh;
-// 		&--socials,
-// 		.scroll--down {
-// 			display: none;
-// 		}
-// 	}
-// }
+@media screen and (max-width: 700px) {
+	.blob {
+		width: 125%;
+		height: 150%;
+	}
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import Headshot from '../../assets/headshot copy.png';
+import Skills from './skills/Skills';
 
 const About = () => {
 	return (
@@ -19,6 +20,7 @@ const About = () => {
 							molestias inventore atque corporis cum.
 							Minima veritatis beatae vel quia commodi at.
 						</p>
+						<Skills/>
 					</div>
 				</div>
 			</div>

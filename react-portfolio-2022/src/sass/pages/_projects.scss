@@ -1,0 +1,17 @@
+@use '../base/colors' as *;
+
+#projects {
+	background-color: $color--white--1;
+    height: 100%;
+}
+
+.project--wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+    ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

@@ -3,9 +3,11 @@ import React from 'react';
 function Blobs() {
 	return (
 		<>
-			<div className='header--blob--top--left'>
+			<div className='header--blob--top--left blob'>
 				<svg
 					viewBox='-20 -5 200 200'
+					width='100%'
+					height='100%'
 					xmlns='http://www.w3.org/2000/svg'
 				>
 					<path
@@ -15,8 +17,10 @@ function Blobs() {
 					/>
 				</svg>
 			</div>
-			<div className='header--blob--bottom--right'>
+			<div className='header--blob--bottom--right blob'>
 				<svg
+					width='100%'
+					height='100%'
 					viewBox='0 25 200 200'
 					xmlns='http://www.w3.org/2000/svg'
 				>
@@ -27,8 +31,10 @@ function Blobs() {
 					/>
 				</svg>
 			</div>
-			<div className='header--blob--top--right'>
+			<div className='header--blob--top--right blob'>
 				<svg
+					width='100%'
+					height='100%'
 					viewBox='0 0 200 200'
 					xmlns='http://www.w3.org/2000/svg'
 				>
@@ -39,8 +45,10 @@ function Blobs() {
 					/>
 				</svg>
 			</div>
-			<div className='header--blob--bottom--left'>
+			<div className='header--blob--bottom--left blob'>
 				<svg
+					width='100%'
+					height='100%'
 					viewBox='-30 20 200 200'
 					xmlns='http://www.w3.org/2000/svg'
 				>

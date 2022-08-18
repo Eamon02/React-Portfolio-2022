@@ -3,13 +3,13 @@
 
 // Import fonts
 
-@font-face {
-	font-family: Carena;
-	src: url('../Fonts/Carena-Regular.otf') format('opentype');
-}
+// @font-face {
+// 	font-family: Carena;
+// 	src: url('../Fonts/Nexus-ZV54m.ttf') format('opentype');
+// }
 
 // FONT SECTION
-$font-primary: 'Carena';
+$font-primary: 'Mulish', sans-serif;
 $font-secondary: 'Montserrat';
 
 //Font sizing
@@ -20,7 +20,7 @@ $regular: clamp(20px, 1vw + 1rem, 28px) !important;
 $light: clamp(18px, 0.5vw + 1rem, 24px) !important;
 
 //Font Weight
-$bold: 400;
+$bold: 800;
 $normal: 500;
 
 body {

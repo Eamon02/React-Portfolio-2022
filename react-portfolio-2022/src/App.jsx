@@ -4,8 +4,8 @@ import Header from './components/header/Header';
 import About from './components/about/About';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
-import Nav from './components/nav/Nav';
 import {Routes, Route } from 'react-router-dom';
+import Nav from './components/nav/Nav';
 const App = () => {
 	return (
 		<>

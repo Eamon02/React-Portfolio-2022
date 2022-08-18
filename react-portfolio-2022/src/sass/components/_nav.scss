@@ -1,7 +1,6 @@
 @use '../base/colors' as *;
 
 .nav {
-	background-color: #ff9671;
 	border-radius: 10px 0px 0px 10px;
 	padding: 1rem;
 	position: fixed;
@@ -13,13 +12,6 @@
 	justify-content: flex-end;
 	z-index: 1;
 
-	svg {
-		width: 2rem;
-		height: 1.5rem;
-		color: white;
-		cursor: pointer;
-	}
-
 	ul {
 		display: flex;
 		gap: 2vw;
@@ -28,7 +20,7 @@
 		margin: 0;
 	}
 
-	a {
+	Link {
 		color: $color--white--1;
 
 		&:hover {

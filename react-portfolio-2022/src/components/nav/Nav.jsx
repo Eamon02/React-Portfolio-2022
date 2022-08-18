@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRef } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa';
+// import { FaBars, FaTimes } from 'react-icons/fa';
 import {Link} from 'react-router-dom'
 function Nav() {
 	const navRef = useRef();
@@ -31,11 +31,6 @@ function Nav() {
 						</Link>
 					</li>
 					<li>
-						<Link to='/skills' onClick={hideNav}>
-							Skills
-						</Link>
-					</li>
-					<li>
 						<Link to='/projects' onClick={hideNav}>
 							Projects
 						</Link>
@@ -46,13 +41,12 @@ function Nav() {
 						</Link>
 					</li>
 					<li>
-						<FaTimes
+						<div
 							onClick={showNav}
-							className='nav--btn nav--btn--close'
-						/>
+							className='nav--btn nav--btn--close'>Close</div>
 					</li>
 				</ul>
-				<FaBars onClick={showNav} className='nav--btn' />
+				<div onClick={showNav} className='nav--btn'>Menu</div>
 			</nav>
 		</>
 	);

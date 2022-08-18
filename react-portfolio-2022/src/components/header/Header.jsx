@@ -2,7 +2,7 @@ import React from 'react';
 import HeaderSocials from './HeaderSocials';
 // import Blobs from './Blobs';
 import Name from './Name';
-import { IoIosArrowForward } from 'react-icons/io';
+// import { IoIosArrowForward } from 'react-icons/io';
 
 const Header = () => {
 	return (
@@ -17,9 +17,9 @@ const Header = () => {
 					<h5>Fullstack Developer</h5>
 				</div>
 				<HeaderSocials />
-				<a href='#contact' className='scroll--down'>
+				{/* <a href='#contact' className='scroll--down'>
 					Scroll Down <IoIosArrowForward />
-				</a>
+				</a> */}
 			</div>
 		</header>
 	);
